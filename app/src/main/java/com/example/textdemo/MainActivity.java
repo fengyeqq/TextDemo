@@ -2,9 +2,12 @@ package com.example.textdemo;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
+    Button button ;
+    private String isStringAll;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
